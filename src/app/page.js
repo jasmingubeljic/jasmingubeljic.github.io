@@ -1,95 +1,81 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
+    <>
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <Link
+                className={styles["menu-link"]}
+                href="/assets/Jasmin-G-Resume.pdf"
+                rel="noopener noreferrer"
+                target="_blank"
+                locale={false}
+              >
+                resume
+              </Link>
+            </li>
+            {/* <li>
+              <a className={styles["menu-link"]} href="">
+                contact
+              </a>
+            </li> */}
+          </ul>
+        </nav>
+        <h1 className={styles["name-heading"]}>
+          Jasmin <span className={styles["last-name"]}>Gubeljić</span>
+        </h1>
+        <h2 className={styles["profession-heading"]}>full-stack developer</h2>
+      </header>
+      <main>
+        <p className={styles["about-me"]}>
+          I am nearing the completion of my portfolio, and in the meantime, I
+          invite you to explore some of my repositories. For a remarkable
+          front-end showcase, I suggest taking a look at a{" "}
           <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://github.com/jasmingubeljic/estore-client"
             target="_blank"
-            rel="noopener noreferrer"
+            className={styles["repository-link"]}
           >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
+            shop project
+          </a>{" "}
+          built with React. Additionally, my{" "}
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://github.com/jasmingubeljic/estore-client"
             target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
+            className={styles["repository-link"]}
           >
-            Read our docs
-          </a>
-        </div>
+            Movimentum
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://github.com/jasmingubeljic/estore-client"
+            target="_blank"
+            className={styles["repository-link"]}
+          >
+            Stoille
+          </a>{" "}
+          projects highlight my proficiency in Vanilla CSS and Vanilla JS. If
+          you have an interest in back-end development, you will also find a{" "}
+          <a
+            href="https://github.com/jasmingubeljic/estore-server"
+            target="_blank"
+            className={styles["repository-link"]}
+          >
+            Node JS
+          </a>{" "}
+          project available for your review.
+        </p>
       </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+      <footer>
+        <ul>
+          <li>jasmin.g@tutanota.com</li>
+        </ul>
       </footer>
-    </div>
+    </>
   );
 }
