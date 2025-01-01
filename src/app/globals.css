@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900");
 
 :root {
-  --primary: #72256a;
+  --primary: #861f70;
   --light: #e4e4e4;
-  --dark: #17214e;
-  --easy-text: #bac7f8;
+  --dark: #161b33;
+  --easy-text: #eef1fc;
+  --glow: rgb(125, 33, 148);
 }
 
 html,
@@ -56,12 +57,17 @@ header nav ul li {
 
 header nav ul li a {
   color: var(--easy-text);
-  font-size: 0.9rem;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem !important;
+  font-weight: 500;
   padding: 0.1rem 0.4rem 0.2rem;
+  border: 1px solid transparent;
 }
 
 header nav ul li a:hover {
-  outline: 1px solid var(--easy-text);
+  border-top: 1px solid var(--easy-text);
+  border-radius: 0 0 0 0.2rem;
 }
 
 footer {
@@ -76,4 +82,51 @@ footer ul {
 
 footer li {
   letter-spacing: 0.08rem;
+}
+
+#flickering-element {
+  color: var(--easy-text);
+  text-shadow: 0 0 0.5vh var(--glow), 0 0 0.5vh var(--glow),
+    0 0 0.5vh var(--glow), 0 0 0.5vh var(--glow), 0 0 1vh var(--glow);
+  animation: flicker 7s infinite;
+  filter: brightness(1);
+}
+
+@keyframes flicker {
+  10% {
+    text-shadow: none;
+    filter: brightness(0.85);
+  }
+  15% {
+    text-shadow: 0 0 0.5vh var(--glow), 0 0 0.5vh var(--glow),
+      0 0 0.5vh var(--glow), 0 0 0.5vh var(--glow), 0 0 1vh var(--glow);
+    filter: brightness(1);
+  }
+  17% {
+    text-shadow: none;
+    filter: brightness(0.4);
+  }
+  25% {
+    text-shadow: 0 0 0.5vh var(--glow), 0 0 0.5vh var(--glow),
+      0 0 0.5vh var(--glow), 0 0 0.5vh var(--glow), 0 0 1vh var(--glow);
+    filter: brightness(1);
+  }
+  66% {
+    text-shadow: 0 0 0.5vh var(--glow), 0 0 0.5vh var(--glow),
+      0 0 0.5vh var(--glow), 0 0 0.5vh var(--glow), 0 0 1vh var(--glow);
+    filter: brightness(1);
+  }
+  67% {
+    text-shadow: none;
+    filter: brightness(0.85);
+  }
+  75% {
+    text-shadow: none;
+    filter: brightness(0.85);
+  }
+  76% {
+    text-shadow: 0 0 0.5vh var(--glow), 0 0 0.5vh var(--glow),
+      0 0 0.5vh var(--glow), 0 0 0.5vh var(--glow), 0 0 1vh var(--glow);
+    filter: brightness(1);
+  }
 }

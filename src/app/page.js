@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <header>
         <nav>
           <ul>
@@ -14,7 +14,7 @@ export default function Home() {
                 href="/assets/Jasmin-G-Resume.pdf"
                 rel="noopener noreferrer"
                 target="_blank"
-                locale={false}
+                // locale={false}
               >
                 resume
               </Link>
@@ -26,7 +26,7 @@ export default function Home() {
             </li> */}
           </ul>
         </nav>
-        <h1 className={styles["name-heading"]}>
+        <h1 className={styles["name-heading"]} id="flickering-element">
           Jasmin <span className={styles["last-name"]}>Gubeljić</span>
         </h1>
         <h2 className={styles["profession-heading"]}>full-stack developer</h2>
@@ -76,6 +76,6 @@ export default function Home() {
           <li>jasmin.g@tutanota.com</li>
         </ul>
       </footer>
-    </>
+    </div>
   );
 }
