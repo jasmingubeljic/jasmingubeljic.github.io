@@ -26,10 +26,14 @@ export default function Home() {
             </li> */}
           </ul>
         </nav>
-        <h1 className={styles["name-heading"]} id="flickering-element">
-          Jasmin <span className={styles["last-name"]}>Gubeljić</span>
-        </h1>
-        <h2 className={styles["profession-heading"]}>full-stack developer</h2>
+        <div className="glitch-wrapper">
+          <h1 className={`${styles["name-heading"]} glitch`} data-glitch="Hi">
+            Hi
+          </h1>
+        </div>
+        <h2 className={`${styles["profession-heading"]}`}>
+          I am Jasmin, a full-stack developer
+        </h2>
       </header>
       <main>
         <p className={styles["about-me"]}>
