@@ -120,7 +120,6 @@ footer li a:hover {
   align-items: center;
   position: relative;
   text-align: center;
-  background-color: var(--dark);
   overflow: auto;
 }
 
