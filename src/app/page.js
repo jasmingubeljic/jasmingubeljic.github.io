@@ -1,31 +1,16 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
+import Navigation from "../components/Navigation/Navigation";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
     <div>
       <header>
-        <nav>
-          <ul>
-            <li>
-              <Link
-                className={styles["menu-link"]}
-                href="/assets/Jasmin-G-Resume.pdf"
-                rel="noopener noreferrer"
-                target="_blank"
-                // locale={false}
-              >
-                resume
-              </Link>
-            </li>
-            {/* <li>
-              <a className={styles["menu-link"]} href="">
-                contact
-              </a>
-            </li> */}
-          </ul>
-        </nav>
+        <Navigation />
+      </header>
+      <main>
         <div className="glitch-wrapper">
           <h1 className={`${styles["name-heading"]} glitch`} data-glitch="Hi">
             Hi
@@ -34,8 +19,6 @@ export default function Home() {
         <h2 className={`${styles["profession-heading"]}`}>
           I am Jasmin, a full-stack developer
         </h2>
-      </header>
-      <main>
         <p className={styles["about-me"]}>
           I am nearing the completion of my portfolio, and in the meantime, I
           invite you to explore some of my repositories. For a glimpse into my
@@ -75,18 +58,7 @@ export default function Home() {
           (Node JS) available for your review.
         </p>
       </main>
-      <footer>
-        <ul>
-          <li>
-            <a href="mailto: jasmin.g@tutanota.com">jasmin.g@tutanota.com</a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/jasmin-gubeljic" target="_blank">
-              LinkedIn
-            </a>
-          </li>
-        </ul>
-      </footer>
+      <Footer />
     </div>
   );
 }
