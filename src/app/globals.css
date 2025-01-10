@@ -42,10 +42,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: start;
   max-width: 740px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 4rem 2rem 0;
 }
 
 * {
@@ -58,59 +58,9 @@ header {
   margin-bottom: 2rem;
 }
 
-nav {
-  margin: 3rem 0;
-}
-header nav ul {
-  display: flex;
-  gap: 1rem;
-  opacity: 0.9;
-}
-
-header nav ul li {
-  list-style: none;
-}
-
-header nav ul li a {
-  color: var(--easy-text);
-  font-size: 0.65rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem !important;
-  font-weight: 500;
-  padding: 0.1rem 0.4rem 0.2rem;
-  border: 1px solid transparent;
-}
-
-header nav ul li a:hover {
-  border-top: 1px solid var(--easy-text);
-  border-radius: 0 0 0 0.2rem;
-}
-
-footer {
-  margin-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-footer ul {
-  font-size: 0.9rem;
-  list-style: none;
-}
-
-footer li {
-  font-size: inherit;
-  letter-spacing: 0.08rem;
-  line-height: 1.5;
-}
-
-footer li a {
-  font-size: 0.8rem;
-  color: var(--easy-text);
-  text-decoration: none;
-  letter-spacing: 0.08rem;
-}
-
-footer li a:hover {
-  opacity: 0.8;
+p {
+  line-height: 2.5;
+  letter-spacing: 0.3;
 }
 
 .glitch-wrapper {

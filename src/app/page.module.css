@@ -1,3 +1,16 @@
+.greeting-heading {
+  margin-left: -6px;
+}
+
+.profession-heading {
+  margin: 0 0 2rem;
+  text-transform: uppercase;
+  line-height: 2rem;
+  letter-spacing: 0.4rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
 .repository-link {
   text-transform: uppercase;
   color: var(--easy-text);
@@ -11,21 +24,8 @@
   outline: 2px solid var(--primary);
   border-radius: 0.2rem;
 }
+
 .repository-link:hover {
   background: var(--primary);
   background: none;
-}
-
-.profession-heading {
-  margin: 0.5rem 0;
-  text-transform: uppercase;
-  line-height: 2rem;
-  letter-spacing: 0.4rem;
-  font-size: 1rem;
-  font-weight: 300;
-  opacity: 1;
-}
-
-.about-me {
-  line-height: 2.7;
 }

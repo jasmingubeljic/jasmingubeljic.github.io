@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
       <div className="glitch-wrapper">
-        <h1 className={`${styles["name-heading"]} glitch`} data-glitch="Hi">
+        <h1 className={`${styles["greeting-heading"]} glitch`} data-glitch="Hi">
           Hi
         </h1>
       </div>
