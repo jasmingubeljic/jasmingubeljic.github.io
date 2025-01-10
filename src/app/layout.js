@@ -1,4 +1,6 @@
 import "./globals.css";
+import Navigation from "@/components/Navigation/Navigation";
+import Footer from "@/components/Footer/Footer";
 
 export const metadata = {
   title: "Jasmin Gubeljić",
@@ -8,7 +10,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <header>
+          <Navigation />
+        </header>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
