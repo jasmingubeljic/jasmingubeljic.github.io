@@ -1,6 +1,6 @@
 .list {
   list-style: none;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 .link {
@@ -12,11 +12,11 @@
 }
 
 .link:hover {
-  margin-left: 0.5rem;
-  transition: margin 150ms, opacity 150ms ease-in-out;
+  margin-left: 0.4rem;
+  transition: margin 150ms, opacity 100ms ease-in-out;
   opacity: 0.8;
 }
 
 .link:not(:hover) {
-  transition: margin 250ms;
+  transition: margin 250ms ease-in-out;
 }

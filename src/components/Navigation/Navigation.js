@@ -10,6 +10,20 @@ export default function Navigation() {
             about
           </Link>
         </li>
+        {/* <li className={styles.list}>
+          <Link className={styles.link} href="#" aria-disabled="true">
+            portfolio
+          </Link>
+        </li> */}
+        <li className={styles.list}>
+          <Link
+            className={styles.link}
+            href="/shelf"
+            // locale={false}
+          >
+            shelf
+          </Link>
+        </li>
         <li className={styles.list}>
           <Link
             className={styles.link}
@@ -21,15 +35,6 @@ export default function Navigation() {
             resume
           </Link>
         </li>
-        {/* <li className={styles.list}>
-          <Link
-            className={styles.link}
-            href="/shelf"
-            // locale={false}
-          >
-            shelf
-          </Link>
-        </li> */}
         {/* <li>
               <a className={styles["menu-link"]} href="">
                 contact

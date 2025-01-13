@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900");
 
 :root {
+  --marian-blue: #384589;
+  --delft-blue: #2d3b6a;
+  --prussian-blue: #1d2d46;
+  --tekhelet: #47366d;
+  --ultra-violet: #5a4485;
+
   --primary: #47366d;
   --light: #e4e4e4;
   --dark: #2d3b6a;
-  --easy-text: #eef1fc;
+  --easy-text: #e7e9f1;
   --glow: rgb(218, 218, 218);
 }
 
@@ -58,9 +64,50 @@ header {
   margin-bottom: 2rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--easy-text);
+}
+
 p {
-  line-height: 2.5;
+  line-height: 2;
+  margin-top: 1.1rem;
   letter-spacing: 0.3;
+  text-shadow: 1px 1px 1px var(--prussian-blue);
+}
+
+pre {
+  width: 98%;
+  opacity: 0.9;
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+
+p code {
+  color: var(--easy-text);
+  background: var(--marian-blue);
+  font-size: 0.9rem;
+  margin: 0 0.1rem;
+  padding: 0 0.3rem 0.15rem;
+  box-shadow: 1px 1px 1px var(--prussian-blue);
+  border-radius: 0.2rem;
+  opacity: 0.85;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: var(--delft-blue);
+  text-shadow: none;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+::selection {
+  color: var(--delft-blue);
+  text-shadow: none;
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .glitch-wrapper {
