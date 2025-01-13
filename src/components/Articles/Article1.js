@@ -8,7 +8,7 @@ export default function Article1() {
   const codeString = ``;
   return (
     <>
-      <h1>Issue of debouncer function within useEffect</h1>
+      <h1>Debounce Function Issue in useEffect</h1>
       <p>
         Let's say we want to make a fetch API call each time the query parameter
         changes. We're also going to add a debouncer because these changes can

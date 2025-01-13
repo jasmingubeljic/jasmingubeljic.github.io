@@ -97,6 +97,11 @@ p code {
   opacity: 0.85;
 }
 
+a {
+  color: var(--easy-text);
+  text-decoration: none;
+}
+
 ::-moz-selection {
   /* Code for Firefox */
   color: var(--delft-blue);
