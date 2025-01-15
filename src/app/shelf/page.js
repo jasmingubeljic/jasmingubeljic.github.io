@@ -12,6 +12,9 @@ export default function Articles() {
       >
         Debounce Function Issue in useEffect
       </Link>
+      <Link href="/shelf/push-footer-to-the-bottom" className={styles.link}>
+        Push Footer to the Bottom
+      </Link>
 
       {/* <Link href="/shelf/link-2">link 2</Link> */}
     </>

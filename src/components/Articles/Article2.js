@@ -8,17 +8,17 @@ export default function Article2() {
   const codeString = ``;
   return (
     <>
-      <h1>Push footer to the bottom</h1>
+      <h1>Push Footer to the Bottom</h1>
       <p>
-        If the main content is minimal, you might see that the footer isn't
-        positioned at the bottom of the page. Fortunately, there's a simple
-        solution to move it down without needing to add extra elements or write
-        plenty of CSS styles.
+        If the main html element has very little content, you might see that the
+        footer isn't at the bottom. Luckily, there's a simple way to move the
+        footer down without needing to add more stuff or make a bunch of CSS
+        styles.
       </p>
       <p>
-        Let's say our <code>body</code> element has <code>header</code>,{" "}
-        <code>main</code>, and <code>footer</code> child elements. The easiest
-        solution is to use CSS grid like this:
+        Let's say our <code>body</code> element contains <code>header</code>,{" "}
+        <code>main</code>, and <code>footer</code>. The easiest solution is to
+        use CSS grid like this:
       </p>
       <SyntaxHighlighter
         language="javascript"
@@ -42,7 +42,7 @@ body {
       <p>
         CSS grid is the most elegant method to achieve this, even though there
         are various techniques available. It's well-supported across most
-        browsers, except for Internet Explorer, which isn't a concern for me.
+        browsers.
       </p>
     </>
   );
