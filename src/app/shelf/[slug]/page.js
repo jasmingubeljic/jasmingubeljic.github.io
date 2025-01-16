@@ -6,6 +6,7 @@ export async function generateStaticParams() {
   const slugs = [
     "debounce-function-issue-in-useEffect",
     "push-footer-to-the-bottom",
+    "accessing-localhost-from-different-devices",
   ]; // static slugs
 
   return slugs.map((slug) => ({
