@@ -12,6 +12,12 @@ export default function Articles() {
       >
         Debounce Function Issue in useEffect
       </Link>
+      <Link
+        href="/shelf/accessing-localhost-from-different-devices"
+        className={styles.link}
+      >
+        Accessing Localhost from Different Devices
+      </Link>
       <Link href="/shelf/push-footer-to-the-bottom" className={styles.link}>
         Push Footer to the Bottom
       </Link>
