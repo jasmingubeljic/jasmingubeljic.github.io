@@ -6,22 +6,26 @@
 .ul {
   font-size: 0.9rem;
   list-style: none;
+  display: flex;
+  gap: 1rem;
 }
 
 .li {
-  font-size: inherit;
   letter-spacing: 0.08rem;
-  line-height: 1.7;
+}
+
+.li svg {
+  font-size: 1.2rem;
 }
 
 .link {
-  font-size: 0.85rem;
+  opacity: 0.85;
   color: var(--easy-text);
   text-decoration: none;
   letter-spacing: 0.08rem;
 }
 
 .link:hover {
-  opacity: 0.8;
-  transition: opacity 150ms;
+  opacity: 1;
+  transition: opacity 250ms;
 }
