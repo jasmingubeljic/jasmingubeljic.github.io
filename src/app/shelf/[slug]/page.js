@@ -14,8 +14,8 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function Article({ params }) {
-  const { slug } = params;
+export default async function Article({ params }) {
+  const { slug } = await params;
 
   if (slug == "debounce-function-issue-in-useEffect") {
     return <Article1 />;

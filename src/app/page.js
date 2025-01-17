@@ -13,7 +13,7 @@ export default function Home() {
         </h1>
       </div>
       <h2 className={`${styles["profession-heading"]}`}>
-        I am Jasmin, a full-stack developer
+        I am Jasmin, a Full-stack developer
       </h2>
       <p className={styles["about-me"]}>
         I am nearing the completion of my portfolio, and in the meantime, I

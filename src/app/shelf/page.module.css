@@ -1,8 +1,25 @@
+.ul {
+  list-style: none;
+  line-height: 2rem;
+}
+
 .link {
   font-size: 0.9rem;
   margin-top: 1rem;
+  clear: left;
+}
+
+.link:hover::after {
+  margin-left: 0.7rem;
+  transition: margin 150ms, opacity 100ms ease-in-out;
+  opacity: 1;
+}
+
+.link:not(:hover)::after {
+  transition: margin 250ms ease-in-out;
 }
 
 .link::after {
   content: " →";
+  opacity: 0.8;
 }
