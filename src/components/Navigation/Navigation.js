@@ -10,36 +10,26 @@ export default function Navigation() {
             about
           </Link>
         </li>
-        {/* <li className={styles.list}>
-          <Link className={styles.link} href="#" aria-disabled="true">
-            portfolio
-          </Link>
-        </li> */}
-        <li className={styles.list}>
-          <Link
-            className={styles.link}
-            href="/shelf"
-            // locale={false}
-          >
-            shelf
-          </Link>
-        </li>
         <li className={styles.list}>
           <Link
             className={styles.link}
             href="/assets/Jasmin-G-Resume.pdf"
             rel="noopener noreferrer"
             target="_blank"
-            // locale={false}
           >
             resume
           </Link>
         </li>
-        {/* <li>
-              <a className={styles["menu-link"]} href="">
-                contact
-              </a>
-            </li> */}
+        <li className={styles.list}>
+          <Link className={styles.link} href="/shelf">
+            shelf
+          </Link>
+        </li>
+        <li className={styles.list}>
+          <Link className={styles.link} href="/portfolio" aria-disabled="true">
+            portfolio
+          </Link>
+        </li>
       </ul>
     </nav>
   );

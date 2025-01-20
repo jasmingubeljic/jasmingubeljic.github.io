@@ -4,7 +4,6 @@ import styles from "./page.module.css";
 export default function Articles() {
   return (
     <>
-      <h1>Shelf</h1>
       <ul className={styles.ul}>
         <li>
           <Link
