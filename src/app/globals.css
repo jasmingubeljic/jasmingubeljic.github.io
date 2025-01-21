@@ -74,12 +74,13 @@ h4,
 h5,
 h6 {
   color: var(--easy-text);
+  letter-spacing: 0.05rem;
 }
 
 p {
   line-height: 2;
   margin-top: 1.1rem;
-  letter-spacing: 0.3;
+  letter-spacing: 0.01rem;
   text-shadow: 1px 1px 1px var(--prussian-blue);
 }
 
@@ -133,7 +134,7 @@ a {
   font-size: 96px;
   font-weight: 700;
   color: var(--easy-text);
-  letter-spacing: 5px;
+  letter-spacing: 0.3rem;
   animation: 4s ease-in-out infinite alternate shift;
   z-index: 1;
 }
