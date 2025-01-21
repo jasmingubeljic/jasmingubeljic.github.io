@@ -12,5 +12,13 @@
 }
 
 .about-me {
-  font-size: 1rem;
+  position: relative;
+  font-size: 1.1rem;
+  letter-spacing: 0.5;
+}
+
+.emoji {
+  position: absolute;
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
 }

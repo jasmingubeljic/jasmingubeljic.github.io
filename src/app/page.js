@@ -17,7 +17,8 @@ export default function Home() {
       </h2>
 
       <p className={styles["about-me"]}>
-        I help businesses turn their ideas into code 💪🏻
+        I help businesses turn their ideas into code{" "}
+        <span className={styles.emoji}>🚀 💪🏽</span>
       </p>
     </>
   );
