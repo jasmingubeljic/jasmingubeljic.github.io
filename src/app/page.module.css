@@ -11,6 +11,10 @@
   font-weight: 300;
 }
 
+.lowercase {
+  text-transform: lowercase;
+}
+
 .about-me {
   position: relative;
   font-size: 1.1rem;
