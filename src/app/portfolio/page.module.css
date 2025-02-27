@@ -1,18 +1,18 @@
 .repository-link {
   text-transform: uppercase;
   color: var(--easy-text);
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   font-weight: 500;
-  padding: 0 0.2rem;
-  letter-spacing: 0.35em;
+  padding: 0.05rem 0.3rem 0.1rem;
+  letter-spacing: 0.15em;
   text-decoration: none;
-  background: linear-gradient(225deg, transparent, var(--primary) 60%);
-  border: 2px solid var(--dark);
-  outline: 2px solid var(--primary);
+  border: 2px solid var(--ultra-violet);
+  background: linear-gradient(180deg, transparent, var(--primary) 50%);
   border-radius: 0.2rem;
+  white-space: nowrap;
 }
 
 .repository-link:hover {
-  background: var(--primary);
-  background: none;
+  background: var(--prussian-blue);
+  transition: 100ms ease-in;
 }
