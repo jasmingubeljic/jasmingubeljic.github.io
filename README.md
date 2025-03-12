@@ -1,3 +1,7 @@
+# My Personal Website
+
+The app is live and can be visited at https://jasmingubeljic.github.io
+
 ## Getting Started
 
 First, run the development server:
