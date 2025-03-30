@@ -19,7 +19,7 @@
 }
 
 .link {
-  opacity: 0.85;
+  opacity: 0.8;
   color: var(--easy-text);
   text-decoration: none;
   letter-spacing: 0.08rem;

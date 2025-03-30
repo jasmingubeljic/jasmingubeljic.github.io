@@ -13,12 +13,11 @@ export default function Home() {
         </h1>
       </div>
       <h2 className={`${styles["profession-heading"]}`}>
-        I am Jasmin, a Full-stack developer
+        I <span className={`${styles["lowercase"]}`}>am</span> Jasmin, <span className={`${styles["lowercase"]}`}>a</span> Full-stack developer
       </h2>
 
       <p className={styles["about-me"]}>
-        I help businesses turn their ideas into code{" "}
-        <span className={styles.emoji}>🚀 💪🏽</span>
+        I help businesses turn their ideas into code <span className={styles.emoji}>💪🏼 🚀</span>
       </p>
     </>
   );
