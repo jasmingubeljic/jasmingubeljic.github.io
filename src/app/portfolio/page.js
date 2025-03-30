@@ -4,42 +4,40 @@ export default function Portfolio() {
   return (
     <>
       <p>
-        I am nearing the completion of my portfolio, and in the meantime, I
-        invite you to explore some of my repositories. For a glimpse into my
-        capabilities, I suggest taking a look at a{" "}
-        <a
-          href="https://github.com/jasmingubeljic/estore-client"
-          target="_blank"
-          className={styles["repository-link"]}
-        >
-          shop
+        I am nearing the completion of my portfolio—meanwhile, feel free to check out some of my repositories. For a glimpse into my capabilities, I suggest
+        taking a look at{" "}
+        <a href="https://github.com/jasmingubeljic/jQuiz" target="_blank" className={styles["repository-link"]}>
+          jQuiz
         </a>{" "}
-        project built with React,{" "}
-        <a
-          href="https://github.com/jasmingubeljic/movimentum"
-          target="_blank"
-          className={styles["repository-link"]}
-        >
+        ,{" "}
+        <a href="https://github.com/jasmingubeljic/accommodation-filtering" target="_blank" className={styles["repository-link"]}>
+          client filtering
+        </a>{" "}
+        ,{" "}
+        <a href="https://github.com/jasmingubeljic/jasmingubeljic.github.io" target="_blank" className={styles["repository-link"]}>
+          this.project
+        </a>{" "}
+        , and{" "}
+        <a href="https://github.com/jasmingubeljic/estore-client" target="_blank" className={styles["repository-link"]}>
+          eStore
+        </a>{" "}
+        . <br></br>
+        <a href="https://github.com/jasmingubeljic/movimentum" target="_blank" className={styles["repository-link"]}>
           Movimentum
         </a>{" "}
         and{" "}
-        <a
-          href="https://github.com/jasmingubeljic/stoille"
-          target="_blank"
-          className={styles["repository-link"]}
-        >
+        <a href="https://github.com/jasmingubeljic/stoille" target="_blank" className={styles["repository-link"]}>
           Stoille
         </a>{" "}
-        projects highlight my proficiency in Vanilla CSS. If you have an
-        interest in back-end development, you will find a{" "}
-        <a
-          href="https://github.com/jasmingubeljic/estore-server"
-          target="_blank"
-          className={styles["repository-link"]}
-        >
-          eStore
+        projects highlight my proficiency in Vanilla CSS. If you're interested in back-end development, check out{" "}
+        <a href="https://github.com/jasmingubeljic/estore-server" target="_blank" className={styles["repository-link"]}>
+          Node.js
         </a>{" "}
-        for your review.
+        project , and{" "}
+        <a href="https://github.com/jasmingubeljic/reservation-stats" target="_blank" className={styles["repository-link"]}>
+          reservation stats
+        </a>{" "}
+        .
       </p>
     </>
   );
