@@ -13,7 +13,7 @@ export default function Navigation() {
         <li className={styles.list}>
           <Link
             className={styles.link}
-            href="/assets/Jasmin-G-Resume.pdf"
+            href="https://cbkailgmuybhqfwzlsyy.supabase.co/storage/v1/object/public/portfolio//Jasmin-G-Resume.pdf"
             rel="noopener noreferrer"
             target="_blank"
           >
