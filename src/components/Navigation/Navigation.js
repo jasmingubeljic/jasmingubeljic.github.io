@@ -26,7 +26,7 @@ export default function Navigation() {
           </Link>
         </li>
         <li className={styles.list}>
-          <Link className={styles.link} href="/portfolio" aria-disabled="true">
+          <Link className={styles.link} href="/portfolio">
             portfolio
           </Link>
         </li>
