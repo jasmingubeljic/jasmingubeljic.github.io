@@ -4,8 +4,7 @@ export default function Portfolio() {
   return (
     <>
       <p>
-        I am nearing the completion of my portfolio—meanwhile, feel free to check out some of my repositories. For a glimpse into my capabilities, I suggest
-        taking a look at{" "}
+        For a glimpse into my capabilities, I suggest taking a look at{" "}
         <a href="https://github.com/jasmingubeljic/jQuiz" target="_blank" className={styles["repository-link"]}>
           jQuiz
         </a>{" "}
@@ -18,8 +17,12 @@ export default function Portfolio() {
           this.project
         </a>{" "}
         , and{" "}
+        <a href="https://github.com/jasmingubeljic/estore-client-ts" target="_blank" className={styles["repository-link"]}>
+          eStore (TS)
+        </a>{" "}
+        -{" "}
         <a href="https://github.com/jasmingubeljic/estore-client" target="_blank" className={styles["repository-link"]}>
-          eStore
+          eStore (JS)
         </a>{" "}
         . <br></br>
         <a href="https://github.com/jasmingubeljic/movimentum" target="_blank" className={styles["repository-link"]}>
@@ -29,7 +32,7 @@ export default function Portfolio() {
         <a href="https://github.com/jasmingubeljic/stoille" target="_blank" className={styles["repository-link"]}>
           Stoille
         </a>{" "}
-        projects highlight my proficiency in Vanilla CSS. If you're interested in back-end development, check out{" "}
+        projects highlight my proficiency in Vanilla CSS. If you are interested in back-end development, check out{" "}
         <a href="https://github.com/jasmingubeljic/estore-server" target="_blank" className={styles["repository-link"]}>
           Node.js
         </a>{" "}
