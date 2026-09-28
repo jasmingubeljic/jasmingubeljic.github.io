@@ -1,0 +1,41 @@
+.editor {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.menuBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.menuBar button {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.menuBar button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.menuBar button.active {
+  background: #333;
+  color: #fff;
+}
+
+.content {
+  min-height: 300px;
+  padding: 12px;
+  outline: none;
+}
+

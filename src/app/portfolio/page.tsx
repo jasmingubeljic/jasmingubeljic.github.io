@@ -1,5 +1,3 @@
-import styles from "./page.module.css";
-
 export default function Portfolio() {
   return (
     <>
@@ -8,7 +6,7 @@ export default function Portfolio() {
         <a
           href="https://github.com/jasmingubeljic/jQuiz"
           target="_blank"
-          className={styles["repository-link"]}
+          className="repository-link"
         >
           jQuiz
         </a>{" "}
@@ -16,7 +14,7 @@ export default function Portfolio() {
         <a
           href="https://github.com/jasmingubeljic/accommodation-filtering"
           target="_blank"
-          className={styles["repository-link"]}
+          className="repository-link"
         >
           client filtering
         </a>{" "}
@@ -24,7 +22,7 @@ export default function Portfolio() {
         <a
           href="https://github.com/jasmingubeljic/jasmingubeljic.github.io"
           target="_blank"
-          className={styles["repository-link"]}
+          className="repository-link"
         >
           this.project
         </a>{" "}
@@ -32,7 +30,7 @@ export default function Portfolio() {
         <a
           href="https://github.com/jasmingubeljic/estore-client-ts"
           target="_blank"
-          className={styles["repository-link"]}
+          className="repository-link"
         >
           eStore (TS)
         </a>{" "}
@@ -40,7 +38,7 @@ export default function Portfolio() {
         <a
           href="https://github.com/jasmingubeljic/estore-client"
           target="_blank"
-          className={styles["repository-link"]}
+          className="repository-link"
         >
           eStore (JS)
         </a>{" "}
@@ -48,7 +46,7 @@ export default function Portfolio() {
         <a
           href="https://github.com/jasmingubeljic/movimentum"
           target="_blank"
-          className={styles["repository-link"]}
+          className="repository-link"
         >
           Movimentum
         </a>{" "}
@@ -56,7 +54,7 @@ export default function Portfolio() {
         <a
           href="https://github.com/jasmingubeljic/stoille"
           target="_blank"
-          className={styles["repository-link"]}
+          className="repository-link"
         >
           Stoille
         </a>{" "}
@@ -65,7 +63,7 @@ export default function Portfolio() {
         <a
           href="https://github.com/jasmingubeljic/estore-server"
           target="_blank"
-          className={styles["repository-link"]}
+          className="repository-link"
         >
           Node.js
         </a>{" "}
@@ -73,7 +71,7 @@ export default function Portfolio() {
         <a
           href="https://github.com/jasmingubeljic/reservation-stats"
           target="_blank"
-          className={styles["repository-link"]}
+          className="repository-link"
         >
           reservation stats
         </a>{" "}
