@@ -9,6 +9,9 @@ export default function Navigation() {
           <Link className={styles.link} href="/">
             about
           </Link>
+          <Link className={styles["edit-link"]} href="/admin/about">
+            🖉
+          </Link>
         </li>
         <li className={styles.list}>
           <Link
