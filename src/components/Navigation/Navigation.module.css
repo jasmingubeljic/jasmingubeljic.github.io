@@ -11,9 +11,16 @@
   letter-spacing: 0.04rem;
 }
 
+.edit-link {
+  font-size: 1em;
+  margin-left: 0.5rem;
+}
+
 .link:hover {
   margin-left: 0.4rem;
-  transition: margin 150ms, opacity 100ms ease-in-out;
+  transition:
+    margin 150ms,
+    opacity 100ms ease-in-out;
   opacity: 0.8;
 }
 

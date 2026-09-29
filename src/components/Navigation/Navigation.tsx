@@ -19,6 +19,9 @@ export default function Navigation() {
           >
             resume
           </Link>
+          <Link className={styles["edit-link"]} href="/admin/resume">
+            🖉
+          </Link>
         </li>
         <li className={styles.list}>
           <Link className={styles.link} href="/shelf">
@@ -27,7 +30,10 @@ export default function Navigation() {
         </li>
         <li className={styles.list}>
           <Link className={styles.link} href="/portfolio">
-            portfolio
+            portfolio{" "}
+          </Link>
+          <Link className={styles["edit-link"]} href="/admin/portfolio">
+            🖉
           </Link>
         </li>
       </ul>

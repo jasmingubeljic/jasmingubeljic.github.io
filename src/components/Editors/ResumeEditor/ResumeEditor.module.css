@@ -1,0 +1,21 @@
+.singleLine {
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.singleLine p {
+  margin: 0;
+}
+
+/* Placeholder extension marks the empty paragraph with data-placeholder */
+.singleLine p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  color: #999;
+  pointer-events: none;
+}
