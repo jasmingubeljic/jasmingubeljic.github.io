@@ -4,7 +4,9 @@ export default function Portfolio() {
   return (
     <>
       <p>
-        For a glimpse into my capabilities, I suggest taking a look at{" "}
+        Projects with real-world applications are closed-source and can be
+        demonstrated upon request. However, for a glimpse into my capabilities,
+        I suggest taking a look at these showcase projects:{" "}
         <a
           href="https://github.com/jasmingubeljic/jQuiz"
           target="_blank"
@@ -44,7 +46,7 @@ export default function Portfolio() {
         >
           eStore (JS)
         </a>{" "}
-        . <br></br>
+        .
         <a
           href="https://github.com/jasmingubeljic/movimentum"
           target="_blank"
@@ -60,8 +62,8 @@ export default function Portfolio() {
         >
           Stoille
         </a>{" "}
-        projects highlight my proficiency in Vanilla CSS. If you are interested
-        in back-end development, check out{" "}
+        projects highlight use of Vanilla CSS. For back-end simple showcases
+        check out{" "}
         <a
           href="https://github.com/jasmingubeljic/estore-server"
           target="_blank"

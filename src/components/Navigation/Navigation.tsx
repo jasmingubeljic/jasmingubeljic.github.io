@@ -11,14 +11,14 @@ export default function Navigation() {
           </Link>
         </li>
         <li className={styles.list}>
-          <Link
+          <a
             className={styles.link}
-            href="https://oidxciuvrzcccopjpeqq.supabase.co/storage/v1/object/public/portfolio/Jasmin-G-Resume.pdf"
-            rel="noopener noreferrer"
+            href="/resume/Jasmin-G-Resume.pdf"
             target="_blank"
+            rel="noopener noreferrer"
           >
             resume
-          </Link>
+          </a>
         </li>
         <li className={styles.list}>
           <Link className={styles.link} href="/shelf">
