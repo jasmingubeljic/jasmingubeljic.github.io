@@ -1,5 +1,7 @@
 # My Personal Website
 
+Status: In progress
+
 The app is live and can be visited at https://jasmingubeljic.github.io
 
 ## Getting Started
